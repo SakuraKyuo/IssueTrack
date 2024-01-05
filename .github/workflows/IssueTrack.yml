@@ -28,7 +28,7 @@ jobs:
             }
             
             TgNotify "
-            # ISSUE
+            #Issue\_Tracker
             *New Issue Opened at* [${{ github.repository }}](https://github.com/${{ github.repository }})
             *Title:* \`${ISSUE_TITLE}\`
             *User:* [${{ github.actor }}](https://github.com/${{ github.actor }})
